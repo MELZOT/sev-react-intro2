@@ -3,6 +3,7 @@ import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx"
 import ClassComponent from "./components/ClassComponent.tsx";
 
 import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
+import Card from "./components/Card.tsx";
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
       <ArrowFunctionalComponent  />
         <ClassComponent />
         <ArrowFunctionalComponentWithProps  title={title }/>
+        <Card  title={title }>
+            <div><p>lorem300</p></div>
+        </Card>
     </>
   )
 }
