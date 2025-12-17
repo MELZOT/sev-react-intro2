@@ -2,8 +2,11 @@ import FunctionalComponent from "./components/FunctionalComponent.tsx";
 import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
 import ClassComponent from "./components/ClassComponent.tsx";
 
+import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
+
 function App() {
 
+    const title="Functional with Props"
 
   return (
     <>
@@ -11,6 +14,7 @@ function App() {
       <FunctionalComponent />
       <ArrowFunctionalComponent  />
         <ClassComponent />
+        <ArrowFunctionalComponentWithProps  title={title }/>
     </>
   )
 }
