@@ -8,7 +8,8 @@
 import Layout from "./components/layout/Layout.tsx";
 //import Counter from "./components/Counter.tsx";
 //import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
-import CounterAdvanced from "./components/CounterAdvanced.tsx";
+//import CounterAdvanced from "./components/CounterAdvanced.tsx";
+import NameChanger from "./components/NameChanger.tsx";
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
                 {/*    <FunctionalComponent />*/}
                 {/*</main>*/}
                 {/*<CounterWithMoreStates  ></CounterWithMoreStates >*/}
-                <CounterAdvanced ></CounterAdvanced>
+                {/*<CounterAdvanced ></CounterAdvanced>*/}
+                <NameChanger ></NameChanger>
             </Layout>
 
 
