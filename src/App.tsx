@@ -6,7 +6,9 @@
 // import Card from "./components/Card.tsx";
 
 import Layout from "./components/layout/Layout.tsx";
-import Counter from "./components/Counter.tsx";
+//import Counter from "./components/Counter.tsx";
+//import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
+import CounterAdvanced from "./components/CounterAdvanced.tsx";
 
 function App() {
 
@@ -23,7 +25,8 @@ function App() {
                 {/*    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, tempora!</p>*/}
                 {/*    <FunctionalComponent />*/}
                 {/*</main>*/}
-                <Counter ></Counter>
+                {/*<CounterWithMoreStates  ></CounterWithMoreStates >*/}
+                <CounterAdvanced ></CounterAdvanced>
             </Layout>
 
 
