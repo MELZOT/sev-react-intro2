@@ -9,12 +9,17 @@ import Layout from "./components/layout/Layout.tsx";
 //import Counter from "./components/Counter.tsx";
 //import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
 //import CounterAdvanced from "./components/CounterAdvanced.tsx";
-import NameChanger from "./components/NameChanger.tsx";
-import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+//import NameChanger from "./components/NameChanger.tsx";
+// import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+// import NameChangerWithUseEffect from "./components/NameChangerWithUseEffect.tsx";
+import {useEffect} from "react";
+import NameChangerWithUseEffect from "./components/NameChangerWithUseEffect.tsx";
 
 function App() {
 
-
+    useEffect(() => {
+        console.log("name" );
+    }, []);
     // const title="Functional with Props"
 
   return (
@@ -29,8 +34,10 @@ function App() {
                 {/*</main>*/}
                 {/*<CounterWithMoreStates  ></CounterWithMoreStates >*/}
                 {/*<CounterAdvanced ></CounterAdvanced>*/}
-                <NameChanger ></NameChanger>
-                <CounterWithCustomHook></CounterWithCustomHook>
+                {/*<NameChangerWithUseEffect  ></NameChangerWithUseEffect>*/}
+                {/*<CounterWithCustomHook></CounterWithCustomHook>*/}
+                loremIpsum200
+                <NameChangerWithUseEffect></NameChangerWithUseEffect>
             </Layout>
 
 
