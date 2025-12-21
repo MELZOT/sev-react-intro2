@@ -13,7 +13,8 @@ import Layout from "./components/layout/Layout.tsx";
 // import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import NameChangerWithUseEffect from "./components/NameChangerWithUseEffect.tsx";
 import {useEffect} from "react";
-import NameChangerWithUseEffect from "./components/NameChangerWithUseEffect.tsx";
+import WindowSize from "./components/WindowSize.tsx";
+// import NameChangerWithUseEffect from "./components/NameChangerWithUseEffect.tsx";
 
 function App() {
 
@@ -36,8 +37,8 @@ function App() {
                 {/*<CounterAdvanced ></CounterAdvanced>*/}
                 {/*<NameChangerWithUseEffect  ></NameChangerWithUseEffect>*/}
                 {/*<CounterWithCustomHook></CounterWithCustomHook>*/}
-                loremIpsum200
-                <NameChangerWithUseEffect></NameChangerWithUseEffect>
+                {/*<NameChangerWithUseEffect></NameChangerWithUseEffect>*/}
+                <WindowSize></WindowSize>
             </Layout>
 
 
